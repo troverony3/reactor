@@ -29,11 +29,6 @@ public class Parsers {
         }
        return result;
     }
-
-
-
-
-
     public List<Reactor> parsyaml(String s){
         Yaml yaml = new Yaml();
         InputStream str = null;
